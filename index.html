@@ -29,17 +29,44 @@
         <p>Insira seu nome</p>
         
         <div id="input-nome"> 
-             <input type="text" id="seu-nome">
 
-             <button id="buton-nome" value="enviar"> Enviar </button> 
+             <input type="text" placeholder="..." id="seu-nome">
+
+             <input type="submit" onclick="capturar()" value="Enviar" id="buton-nome">
             
         </div>
 
-        <div id="botao-play">
-            <a href="#">Continuar...</a>
+        <div class="botao-page" id="botao-play">
+            <a href="#main-cont">Continuar...</a>
         </div>
 
+       
     </main>
+
+         
+     <script>
+             var capturando = "" 
+
+             
+
+                function capturar(){
+        
+                capturando = document.getElementById('seu-nome').value
+                capturando = document.getElementById('nome').innerHTML = capturando
+                } 
+    </script>
+
+    
+
+        <main id="main-cont">
+           
+            <p class="main2" > Hello  <div id="nome"></div></p>
+
+        </main>
+
+
+
+    
 
    
      

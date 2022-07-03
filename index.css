@@ -16,9 +16,14 @@
     src: url(fonts/WC_RoughTrad.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+    
+}
 body {
-    background-color: rgba(179,179,179,255);
-    height: 400vh;
+    background-image: linear-gradient(to bottom, rgba(179,179,179,255)40%, black);
+    background-repeat: no-repeat;
+    height: 900vh;
     width: 100%;
     padding-top: 10px;
 }
@@ -93,7 +98,7 @@ h2 {
 
 
 
-p {
+p, #nome {
     font-family:"seg";
     font-size: 15px;
     text-align: center;
@@ -125,12 +130,21 @@ main p {
 
 }
 
-#botao-play > a {
+.botao-page > a {
     text-decoration:none ;
     color: rgb(209, 209, 209);
 }
 
-#botao-play:hover {
+.botao-page:hover {
     background-color: rgb(68, 68, 68) ;
+}
+
+#main-cont {
+    margin-top: 6600px;
+}
+
+p.main2, #nome{
+    color: aliceblue;
+    text-align: center;
 }
 

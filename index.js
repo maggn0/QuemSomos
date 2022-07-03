@@ -1,5 +1,10 @@
-var input = document.getElementById('#seu-nome')
 
-var texto = input.value
+/** 
+ var capturando = "" 
 
-console. log(texto)
+function capturar(){
+    capturando = document.getElementById('seu-nome').value
+    capturando = document.getElementById('valorDigitado').innerHTML = capturando
+}
+
+**/
